@@ -2,7 +2,7 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/CannyLab/tsne-cuda)
 ![Conda](https://img.shields.io/conda/pn/CannyLab/tsnecuda)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/tsnecuda)
-![CUDA versions](https://img.shields.io/badge/cuda-10.1%20%7C%2010.2%20%7C%2011.0%20%7C%2011.1%20%7C%2011.2%20%7C%2011.3%20%20-blue)
+![CUDA versions](https://img.shields.io/badge/cuda-10.1%20%7C%2010.2%20%7C%2011.0%20%7C%2011.1%20%7C%2011.2%20%7C%2011.3%20%7C%2012.2-blue)
 ![Conda](https://img.shields.io/conda/dn/cannylab/tsnecuda)
 
 This repo is an optimized CUDA version of [FIt-SNE algorithm](https://github.com/KlugerLab/FIt-SNE) with associated python modules. We find that our implementation of t-SNE can be up to 1200x faster than Sklearn, or up to 50x faster than Multicore-TSNE when used with the right GPU. The paper describing our approach, as well as the results below, is available at [https://arxiv.org/abs/1807.11824](https://arxiv.org/abs/1807.11824).
